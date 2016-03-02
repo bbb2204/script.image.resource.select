@@ -119,7 +119,7 @@ class Gui(xbmcgui.WindowXMLDialog):
             xbmc.sleep(100)
             self.close()
         elif controlID == 5:
-            xbmc.executebuiltin('ActivateWindow(AddonBrowser, addons://repository.xbmc.org/kodi.resource.images/)')
+            xbmc.executebuiltin('ActivateWindow(AddonBrowser, addons://repository.xbmc.org/kodi.resource.images/,return)')
             xbmc.sleep(100)
             self.close()
         elif controlID == 7:
